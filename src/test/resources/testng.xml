@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MyTestSuite">
+    <test name="APITests">
+        <classes>
+            <class name="REST_API.Intermediate.reqresin.APITests.TestTaskThreeScenarioOne"/>
+<!--            <class name="REST_API.Intermediate.reqresin.APITests.TestTaskFourScenarioTwo"/>-->
+            <class name="REST_API.Advanced.trello.APITests.PostmanAPITests"/>
+            <class name="REST_API.Advanced.gorestAPI.APITests.GorestAPITests"/>
+        </classes>
+    </test>
+</suite>
